@@ -1,0 +1,4 @@
+interface:
+  display_name: "SIOKIUU Customer Journey"
+  short_description: "Customer journey support for portable generators"
+  default_prompt: "Use $siokiuu to analyze a SIOKIUU customer case and draft a grounded response."
