@@ -56,14 +56,18 @@
 
 直接打开 `SKILL.md` 阅读处理规则，按问题进入 `references/` 查证具体资料。无需向仓库提交客户邮件、订单信息或账号凭证。
 
-### 在 Codex 中本地试用
+### 在 Claude Code 中本地试用（推荐）
 
 1. 下载本仓库的 ZIP，或执行 `git clone https://github.com/benrong2048-boop/siokiuu.git`。
-2. 将整个 `siokiuu` 文件夹放入本机 Codex Skills 目录，例如 `C:\Users\你的用户名\.codex\skills\siokiuu`。
-3. 重启或新开 Codex 会话。
+2. 将整个 `siokiuu` 文件夹放入 Claude Code 的个人 Skills 目录：`C:\Users\你的用户名\.claude\skills\siokiuu`。
+3. 新开一个 Claude Code 会话。
 4. 在对话中输入 `$siokiuu` 加上实际业务问题。
 
-如果本机的 Skill 目录不同，以 Codex 应用中已安装 Skill 的实际目录为准；不要只复制 `SKILL.md`，`references/` 必须一并保留。
+不要只复制 `SKILL.md`，`references/` 必须一并保留。若已有项目级 `.claude/skills/` 目录，也可以将整个文件夹放在项目目录下供该项目使用。
+
+### 在 Codex 中本地试用
+
+将整个 `siokiuu` 文件夹放入 `C:\Users\你的用户名\.codex\skills\siokiuu`，新开会话后以 `$siokiuu` 调用；其余要求与上面相同。
 
 ## 首轮试用：5 个验收问题
 
@@ -94,4 +98,3 @@
 ## 版本与反馈
 
 当前版本为试用版。测试中如发现“事实缺失、表述不安心、转人工不清楚或资料冲突”，请在 GitHub Issue 中写明：原始问题（脱敏）、Skill 输出、问题所在和建议改法。不要上传客户原邮件或个人信息。
-
